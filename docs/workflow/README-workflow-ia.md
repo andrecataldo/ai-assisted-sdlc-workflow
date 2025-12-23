@@ -1,245 +1,196 @@
-# Workflow de Desenvolvimento com IA (SDLC) — v0.1
+# AI-Assisted SDLC Workflow (v0.1)
 
-## 1. Objetivo do Projeto
+Este repositório define um **workflow estruturado para desenvolvimento de software com apoio de IA**, no qual agentes atuam como **executores**, enquanto humanos mantêm **intenção, governança e responsabilidade final**.
 
-Este repositório documenta e evolui um **Workflow de Desenvolvimento de Software com IA**, concebido para viabilizar o uso consciente, governado e escalável de **Vibe Coding** ao longo de todo o **SDLC (Software Development Life Cycle)**.
+O objetivo do workflow é permitir a criação de **produtos, features e experimentos reais**, com:
 
-O objetivo **não é apenas desenvolver software com IA**, mas **criar um processo reproduzível** no qual:
-
-- A IA atua como **executora técnica especializada**
-- O humano atua como **arquiteto, revisor e responsável final**
-- A intenção do desenvolvimento é explícita, versionada e auditável
-- O risco de autonomia excessiva da IA é mitigado por design
-
-Este workflow é **agnóstico de ferramentas**, focado em **engenharia**, e aplicável a projetos reais de médio e grande porte.
+- clareza de contexto
+- controle de escopo
+- rastreabilidade de decisões
+- execução segura por agentes de IA
 
 ---
 
-## 2. Premissas Operacionais do SDLC com IA
+## Princípio Fundamental
 
-Estas premissas funcionam como um **contrato cognitivo do workflow**.  
-Todas as decisões técnicas e de processo devem respeitá-las.
+> **IA executa. Humanos decidem.**
 
-### Premissas Técnicas
+A IA nunca opera sem:
 
-- **Stack dominante:** Python  
-- **Controle de versão:** GitHub e/ou Azure DevOps  
-- **Ambiente padrão:** Linux / Ubuntu  
-- **Objetivo principal:** Criação de features end-to-end  
-
-### Modelo Mental
-
-- A **IA atua como executora**
-- O **humano atua como arquiteto, revisor e responsável final**
-- Nenhuma mudança relevante é considerada válida sem validação humana explícita
-- A responsabilidade técnica **nunca** é delegada à IA
+- contexto explícito
+- regras claras
+- limites bem definidos
+- checkpoints humanos
 
 ---
 
-## 3. Papéis no Workflow de Desenvolvimento com IA
+## Visão Geral do Workflow
 
-### 3.1. Human Lead Engineer
+O AI-Assisted SDLC é **iterativo e orientado à intenção**, estruturado em torno de artefatos versionáveis e assistentes especializados.
 
-Responsável final pela integridade técnica do sistema.
+Fluxo conceitual:
 
-**Responsabilidades:**
-- Definir a intenção da feature
-- Estabelecer critérios de qualidade
-- Aprovar planos de execução
-- Revisar diffs e Pull Requests
-- Tomar decisões arquiteturais
-- Assumir responsabilidade técnica final
+```text
+PRD-Lite
+   ↓
+Context Pack
+   ↓
+Guidelines Técnicos
+   ↓
+Visão de Arquitetura
+   ↓
+Action Plan
+   ↓
+MCP (Machine-Consumable Plan)
+   ↓
+Execução por IA + Revisão Humana
+```
 
----
-
-### 3.2. AI Dev Agent
-
-Agente executor especializado.
-
-**Responsabilidades:**
-- Propor planos de ação
-- Implementar alterações no código
-- Criar e executar testes
-- Iterar sobre falhas e feedback
-- Documentar alterações conforme solicitado
-
-> A IA **não possui autonomia decisória** sobre arquitetura, escopo, releases ou priorização.
 
 ---
 
-## 4. SDLC Orientado à Intenção (Intent-Centric)
+## Gramática do Método (Artefatos Canônicos)
 
-Este workflow é explicitamente **orientado à intenção**, não à tarefa.
+O workflow possui uma **gramática explícita**, composta por **templates canônicos**.  
+Esses templates definem **a forma obrigatória** dos artefatos, independentemente do produto.
 
-### 4.1. Feature Intent / Intent Spec
+### 📐 Templates Oficiais
 
-A **Feature Intent** é o artefato central do SDLC com IA.  
-Ela atua como ponte entre **ideia/backlog** e **execução por agentes**.
+Localizados em: `docs/templates/`
 
-Sem uma Feature Intent aprovada:
-- Nenhum Action Plan é gerado
-- Nenhuma execução de código é iniciada
 
-A Feature Intent pode existir como:
-- Seção dedicada no PRD-Lite, ou
-- Artefato próprio (`feature-intent.md`) — **recomendado**
+Artefatos da gramática:
 
-Ela é o **insumo primário** para:
-- Action Plan Generator
-- Execução dos AI Dev Agents
-
----
-
-## 5. Ferramentas como *Capabilities*, não como Etapas
-
-Este workflow **não depende de ferramentas específicas**.
-
-As ferramentas são tratadas como **capacidades do SDLC**, intercambiáveis ao longo do tempo.
-
-| Capability | Exemplos |
-|---------|---------|
-| Planejamento da feature | ChatGPT, Cursor |
-| Execução multi-arquivo | Cursor, Copilot |
-| Execução via terminal | Claude Code |
-| Revisão de mudanças | IDE + Humano |
-| Qualidade e CI | Pytest, Ruff, MyPy, Pipelines |
-
----
-
-## 6. Governança & Guardrails (Camada Transversal)
-
-Estas regras se aplicam **a todas as fases** do workflow.
-
-### Limites de Autonomia da IA
-- Não alterar arquitetura sem aprovação
-- Não criar dependências críticas sem validação
-- Não abrir PR sem revisão humana
-
-### Checkpoints Humanos Obrigatórios
-- Aprovação da Feature Intent
-- Aprovação do Action Plan
-- Revisão final de Pull Request
-
-### Ações Proibidas sem Aprovação
-- Refactors amplos
-- Mudanças de contrato público
-- Alterações em pipelines ou infraestrutura
-
-### Rastreabilidade
-- Feature Intents versionadas
-- Action Plans registrados
-- Diffs revisados
-- Versões documentadas
-
----
-
-## 7. Visão Geral do Workflow
-
-Em alto nível, o workflow segue o seguinte fluxo lógico:
-
-1. Definição da intenção da feature  
-2. Contextualização do produto e do sistema  
-3. Planejamento da execução  
-4. Implementação assistida por IA  
-5. Revisão humana e hardening  
-6. Atualização de artefatos e aprendizado  
-
-O detalhamento completo da execução está documentado no **roadmap do projeto**.
-
-👉 **Ver:**  
-[Roadmap – Workflow de Desenvolvimento com IA](./roadmap.md)
-
----
-
-## 8. Fases do Projeto de Construção do Workflow
-
-Este repositório **documenta a criação do próprio workflow**, organizado nas seguintes fases:
-
-1. **Fase 0 – Preparação**  
-   - Escolha do projeto piloto  
-   - Organização do repositório  
-   - Definição das ferramentas  
-
-2. **Fase 1 – Desenho Conceitual**  
-   - Visão geral do SDLC com IA  
-   - Regras de ouro  
-   - Ciclos de uso  
-
-3. **Fase 2 – PRD-Lite / Documento de Contexto**  
-   - Template de PRD-Lite  
-   - Versão do projeto piloto  
-
-4. **Fase 3 – Guidelines Técnicos**  
-   - Convenções de código  
-   - Regras para uso da IA  
-
-5. **Fase 4 – Design dos Assistentes**  
-   - Context Generator  
-   - Tech Guidelines Generator  
-   - Action Plan Generator  
-   - Architecture Generator  
-   - MCP Generator  
-
-6. **Fase 5 – Implementação dos Assistentes**  
-   - Criação e validação prática  
-   - Ajustes de prompts  
-
-7. **Fase 6 – Piloto**  
-   - Uso do workflow em uma feature real  
-   - Pós-mortem  
-
-8. **Fase 7 – Refinamento & Playbook**  
-   - Ajustes finais  
-   - Consolidação do workflow  
-
-O detalhamento de cada fase está descrito no roadmap.
-
----
-
-## 9. Artefatos Principais
-
-- **Documento de Contexto (PRD-Lite)**  
-  `docs/context/`
+- **PRD-Lite**  
+  Define o problema, objetivos e escopo da iteração.
 
 - **Feature Intent / Intent Spec**  
-  `docs/context/feature-intent-template.md`
+  Define a intenção exata da feature a ser construída.
+
+- **Context Pack**  
+  Consolida o contexto conceitual e operacional do produto.
 
 - **Guidelines Técnicos**  
-  `docs/guidelines/`
+  Define regras técnicas, guardrails e proibições explícitas.
 
 - **Visão de Arquitetura**  
-  `docs/architecture/`
+  Define a arquitetura mínima e consciente para a iteração.
 
-- **Assistentes / Agents**  
-  `docs/agents/`
+- **MCP (Machine-Consumable Plan)**  
+  Define o contrato operacional para execução por agentes de IA.
 
----
-
-## 10. Métricas de Avaliação do Workflow
-
-O sucesso do workflow será avaliado por:
-
-- Lead time de desenvolvimento de features
-- Qualidade dos planos de ação gerados
-- Incidência de bugs pós-deploy
-- Esforço de onboarding de novos devs ou agentes
-- Clareza e atualização dos artefatos
+👉 **Nenhum artefato pode ser criado fora desses formatos.**
 
 ---
 
-## 11. Status do Documento
+## Exemplos Reais (Instâncias da Gramática)
 
-- **Versão:** v0.1  
-- **Estado:** Em evolução  
-- **Próximo foco:**  
-  - Templates de Feature Intent  
-  - Prompts dos Assistentes  
-  - Execução do piloto  
+Instâncias concretas de produtos e features vivem em: `docs/context/examples/`
+
+
+Esses arquivos:
+- **não definem o método**
+- **demonstram o método em uso**
+- servem como referência prática
+
+Exemplo:
+- *Academic Paper Builder* (case real completo, end-to-end)
 
 ---
 
-### Resumo Final
+## Assistentes do Workflow
 
-Este README define o **alicerce conceitual, operacional e de governança** do Workflow de Desenvolvimento com IA.
+Os assistentes são **geradores especializados**, responsáveis por produzir artefatos **a partir de templates e inputs aprovados**.
 
-O foco não é acelerar código a qualquer custo, mas **integrar IA ao SDLC de forma responsável, intencional e sustentável**.
+Localização: `docs/agents/`
+
+
+Assistentes definidos no v0.1:
+
+- **Context Generator**
+- **Tech Guidelines Generator**
+- **Architecture Generator**
+- **Action Plan Generator**
+- **MCP Generator**
+
+Cada assistente:
+- recebe inputs explícitos
+- gera apenas um tipo de artefato
+- não toma decisões fora do escopo
+
+---
+
+## Papéis no Workflow
+
+### Human Lead Engineer
+
+Responsável por:
+- definir intenção
+- aprovar artefatos
+- revisar resultados
+- assumir responsabilidade técnica final
+
+---
+
+### AI Dev Agent
+
+Responsável por:
+- executar planos aprovados
+- respeitar escopo e guardrails
+- interromper execução em caso de dúvida
+- reportar erros explicitamente
+
+---
+
+## Governança e Segurança
+
+O workflow impõe:
+
+- checkpoints humanos obrigatórios
+- escopo autorizado vs. proibido
+- versionamento de todos os artefatos
+- rastreabilidade completa entre decisões e execução
+
+Nenhuma execução autônoma irreversível é permitida.
+
+---
+
+## Estrutura do Repositório
+
+```text
+docs/
+├── agents/ # Assistentes do workflow
+├── templates/ # Gramática canônica do método
+├── context/
+│ ├── examples/ # Casos reais (instâncias)
+│ └── *.md # Templates de contexto
+├── workflow/ # Roadmap, README e visão do processo
+└── playbook/ # Cheatsheets e guias rápidos
+```
+
+---
+
+## Estado do Workflow
+
+- **Versão:** v0.1
+- **Status:** Gramática completa e validada
+- **Uso recomendado:**  
+  - criação de novos produtos
+  - experimentos com agentes
+  - ensino e replicação do método
+
+---
+
+## Próximos Passos Possíveis
+
+- Evoluir para v0.2 (métricas, feedback loops)
+- Criar templates de CI/QA
+- Automatizar geração de MCP
+- Aplicar o workflow a novos produtos
+
+---
+
+> **Este workflow não é um framework de código.  
+> É um método de decisão, execução e governança com IA.**
+
+
