@@ -1,64 +1,103 @@
-# PRD-Lite — Template (v0.1)
+# PRD-Lite — Product Requirements Document (v0.1)
 
-> Status: Draft | Reviewed | Approved  
-> Owner (Human Lead Engineer):  
-> Date:  
+Este documento define o **contexto mínimo necessário** para iniciar um produto ou feature
+no **Workflow de Desenvolvimento com IA**.
 
-## 1. Product Snapshot
-- Nome do produto:
-- Tipo: (app, serviço, CLI, feature)
-- Público-alvo:
-- Contexto da empresa/uso (1 parágrafo):
-- Problema que este produto resolve (1 parágrafo):
-- Valor entregue (bullet list):
+Ele é o **input primário** para o **Context Generator**.
 
-## 2. Problema e Motivação
-Descreva o problema em linguagem de negócio e de usuário.
-Inclua sintomas (retrabalho, lentidão, inconsistência etc.) e impacto.
+---
 
-## 3. Objetivo (Outcome)
-Defina o resultado esperado como algo verificável.
-- O que será considerado sucesso?
-- Como o usuário percebe sucesso?
+## 1. Identificação do Produto
 
-## 4. Escopo
-### 4.1 In (o que entra)
+- **Nome do Produto:**
+- **Tipo:** (produto novo | feature | experimento | refatoração)
+- **Responsável Humano (Lead):**
+
+---
+
+## 2. Contexto e Problema
+
+Descreva o problema **do ponto de vista humano**, sem soluções técnicas.
+
+- Qual é o problema central?
+- Por que ele é relevante?
+- Em que situação esse problema ocorre?
+
+> Evite descrever *como* resolver. Foque no *porquê*.
+
+---
+
+## 3. Público-Alvo
+
+- Quem são os usuários?
+- Perfil geral (ex.: estudantes, profissionais, pesquisadores)
+- Nível de familiaridade técnica (baixo / médio / alto)
+
+---
+
+## 4. Objetivo do Produto
+
+Declare o **resultado esperado**, não a solução.
+
+- O que muda para o usuário se isso der certo?
+- Qual valor principal será entregue?
+
+---
+
+## 5. Escopo Inicial (alto nível)
+
+### 5.1 Dentro do Escopo
+Liste, em alto nível, o que **faz parte** do produto.
+
+- …
 - …
 
-### 4.2 Out (o que fica fora)
+### 5.2 Fora do Escopo
+Liste explicitamente o que **não faz parte**, mesmo que seja tentador.
+
+- …
 - …
 
-### 4.3 Anti-objetivos (o que não queremos)
+---
+
+## 6. Restrições e Premissas
+
+- Restrições conhecidas (tempo, ambiente, compliance, etc.)
+- Premissas assumidas (ex.: usuário já domina X)
+
+---
+
+## 7. Critério de Sucesso (alto nível)
+
+O produto/feature será considerado bem-sucedido quando:
+
+- …
 - …
 
-## 5. Usuários e Casos de Uso
-- Persona(s):
-- Top 3–5 casos de uso:
-  - UC1:
-  - UC2:
-  - UC3:
+Não inclua métricas técnicas neste momento.
 
-## 6. Requisitos Funcionais (alto nível)
-Liste capacidades, não implementação.
-- RF1:
-- RF2:
+---
 
-## 7. Requisitos Não-Funcionais e Restrições
-- Plataforma/ambiente (ex.: Linux/Ubuntu):
-- Stack preferencial (se definido):
-- Segurança/privacidade (se aplicável):
-- Performance/limites (se aplicável):
-- Observações de compatibilidade:
+## 8. Riscos ou Ambiguidades Conhecidas
 
-## 8. Guardrails (governança)
-- O que a IA **pode** fazer sem aprovação:
-- O que a IA **não pode** fazer sem aprovação:
-- Checkpoints humanos obrigatórios (ex.: antes de dependências externas, antes de PR):
+Liste pontos que:
+- ainda não estão claros
+- podem gerar interpretações diferentes
+- precisam de atenção dos agentes
 
-## 9. Critérios de Aceite (alto nível)
-O que precisa ser verdade para declarar “pronto”?
-- …
+---
 
-## 10. Riscos e Questões em Aberto
-- Riscos:
-- Questões:
+## 9. Decisões Já Tomadas (se houver)
+
+Liste apenas decisões **já validadas pelo humano**.
+
+- Ex.: “Será uma CLI”
+- Ex.: “Não haverá persistência nesta fase”
+
+---
+
+## Estado do Documento
+
+- **Versão:** v0.1
+- **Status:** Template oficial do workflow
+- **Usado por:** Context Generator
