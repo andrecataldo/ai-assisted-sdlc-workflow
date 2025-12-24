@@ -8,7 +8,7 @@
 > [`../README-v0.2.md`](../README-v0.2.md)
 
 
-# AI-Assisted SDLC Workflow (v0.1)
+# AI-Assisted SDLC Workflow
 
 Este repositório define um **workflow estruturado para desenvolvimento de software com apoio de IA**, no qual agentes atuam como **executores**, enquanto humanos mantêm **intenção, governança e responsabilidade final**.
 
