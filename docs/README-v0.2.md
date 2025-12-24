@@ -1,3 +1,9 @@
+> 📘 **Checkpoints oficiais**
+>
+> Os checkpoints da versão vivem em `docs/checkpoints/` e são a fonte de verdade
+> para retomada e continuidade do workflow.
+
+
 # 📘 AI-Assisted SDLC Workflow — v0.2
 
 ## 1. Visão Geral
