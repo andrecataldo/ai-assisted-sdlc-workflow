@@ -1,4 +1,4 @@
-# MCP+ — Master Control Prompt (v0.2)
+# MCP+ — Machine-Consumable Plan Plus (v0.2)
 
 ## 1. Identificação
 
