@@ -1,3 +1,13 @@
+> 📘 **Versão do Workflow**
+>
+> Este workflow está atualmente na **versão v0.2**.  
+> A v0.2 introduz contratos explícitos, regras de precedência e memória operacional
+> para evitar loops e drift em interações com IA.
+>
+> 👉 Para detalhes completos da versão, veja:  
+> [`../README-v0.2.md`](../README-v0.2.md)
+
+
 # AI-Assisted SDLC Workflow (v0.1)
 
 Este repositório define um **workflow estruturado para desenvolvimento de software com apoio de IA**, no qual agentes atuam como **executores**, enquanto humanos mantêm **intenção, governança e responsabilidade final**.
