@@ -1,12 +1,24 @@
 > 📘 **Versão do Workflow**
->
-> Este workflow está atualmente na **versão v0.2**.  
+> 
+> Este workflow está atualmente na versão **v0.2 (vigente)**.  
 > A v0.2 introduz contratos explícitos, regras de precedência e memória operacional
 > para evitar loops e drift em interações com IA.
->
-> 👉 Para detalhes completos da versão, veja:  
+> 
+> 👉 Para detalhes completos da versão vigente, veja:  
 > [`../README-v0.2.md`](../README-v0.2.md)
-
+> 
+> ---
+> 
+> 🧭 Nota sobre versões futuras
+> 
+> A versão **v0.3** encontra-se **normativamente definida e encerrada**,
+> com foco em governança da execução assistida por IA.
+> 
+> A v0.3 **ainda não é vigente** e **não substitui a v0.2**.
+> Seu conteúdo está disponível em `docs/v0.3/` para leitura e referência conceitual,
+> conforme registrado no checkpoint de encerramento normativo.
+>
+> ---
 
 # AI-Assisted SDLC Workflow
 

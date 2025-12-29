@@ -1,3 +1,20 @@
+> ⚠️ **STATUS DO DOCUMENTO — LEITURA CONCEITUAL**
+> 
+> Este documento é um **draft conceitual** da versão v0.3 do AI-Assisted SDLC Workflow.
+> 
+> Ele **não possui autoridade normativa** e **não governa uso, execução ou decisão**.
+> 
+> 👉 A fonte normativa oficial da v0.3 está em:
+> - `docs/v0.3/` (capítulos normativos)
+> - `docs/checkpoints/checkpoint-v0.3-normative-closure.md` (encerramento normativo)
+> 
+> 👉 A versão vigente do workflow continua sendo a **v0.2**:
+> - `docs/README-v0.2.md`
+> 
+> Use este documento apenas como **mapa conceitual e contextual**.
+> 
+> ---
+
 # 📘 README — AI-Assisted SDLC Workflow v0.3 (Draft)
 
 > **Status:** Draft (conceitual)  
