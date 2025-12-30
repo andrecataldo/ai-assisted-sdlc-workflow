@@ -1,3 +1,11 @@
+> ⚠️ STATUS: Artefato operacional (não normativo)  
+> Compatibilidade: v0.2 (vigente) / v0.3 (normativo encerrado)  
+> Autoridade: deve obedecer `docs/README-v0.2.md` e, quando aplicável, `docs/v0.3/`.  
+> Escopo: gerar **planos de ação** derivados de decisões já registradas (MCP+/checkpoints).  
+> Proibido: inventar decisões, alterar Decision Locks, expandir escopo sem MCP+.
+>
+> ---
+
 # Action Plan Generator — v0.1
 
 ## 1. Propósito

@@ -1,3 +1,10 @@
+> 🧾 STATUS: Legacy (v0.1) — preservado por histórico  
+> Não recomendado para uso atual.  
+> Use `docs/agents/context-generator.md` para v0.2+.  
+> Autoridade vigente: `docs/README-v0.2.md`.
+>
+> ---
+
 # 🤖 Context Generator  
 ## Especificação do Assistente — v0.1
 
