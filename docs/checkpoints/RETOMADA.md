@@ -1,82 +1,124 @@
 # 🔁 RETOMADA — ai-assisted-sdlc-workflow
 
-<!-- DOCUMENTO DE RETOMADA RÁPIDA -->
-<!-- NÃO NORMATIVO | DOCUMENTO OPERACIONAL -->
-
-Projeto: ai-assisted-sdlc-workflow  
-Produto de referência: Academic Paper Builder  
-Última atualização: 2025-12-30  
-Responsável humano: Andre Cataldo  
+<!-- RETOMADA -->
+<!-- GOVERNANÇA | RESUMO OPERACIONAL -->
+<!-- OBJETIVO: PERMITIR RETOMADA SEGURA SEM EXPANSÃO INDEVIDA -->
 
 ---
 
-## 🏷️ TAG DE RETOMADA (CANÔNICA)
+## 🧠 Estado Atual do Método
 
-**RETOMADA:**  
-Workflow consolidado com **Diretriz Primária definida**, **v0.2 aplicada em produto real** e **v0.3 normativamente encerrada (não vigente)**.
+O **AI-Assisted SDLC Workflow** encontra-se em estado **estável para adoção interna controlada**.
 
-Este documento serve como **atalho cognitivo** para retomar o projeto sem reinterpretação histórica.
+- **Diretriz Primária** definida e vigente (Camada 0)
+- **v0.2** é a **versão vigente**
+- **v0.3** está **normativamente encerrada** (referência conceitual)
+- Dry Run da v0.3 realizado e analisado
+- Guia de Adoção, MCP+ Light e Anti-Exemplos criados
+- Nenhuma automação autorizada
+- Nenhuma nova versão aberta
 
----
-
-## 📍 ESTADO ATUAL RESUMIDO
-
-- Diretriz Primária (Camada 0): **ativa e imutável**
-- Versão vigente: **v0.2**
-- Versão normativamente definida, porém não vigente: **v0.3**
-- Uso real registrado: **Academic Paper Builder**
-- Próxima atividade autorizada: **Dry Run da v0.3**
+Este ponto marca o **encerramento consciente de um ciclo**.
 
 ---
 
-## 🚫 O QUE NÃO FAZER AO RETOMAR
+## ✅ O que PODE ser usado agora (uso interno controlado)
 
-1. **Não tratar a v0.3 como versão ativa**  
-   A v0.3 é norma encerrada, não um roadmap implícito de automação.
+### Núcleo do método
+- Diretriz Primária  
+- Hierarquia de autoridade vigente  
+- Uso de checkpoints como memória institucional  
 
-2. **Não criar automações, CI/CD ou agentes autônomos**  
-   Nenhuma automação é válida sem evidência empírica documentada.
+### v0.2 — Versão vigente
+Autorizada para:
+- organização de pensamento
+- planejamento e alinhamento
+- governança cognitiva
+- redução de drift
+- decisões explícitas
 
-3. **Não alterar axiomas ou Diretriz Primária**  
-   A Camada 0 governa todas as versões e não é negociável.
+Artefatos e práticas:
+- PRD-Lite  
+- Context Pack  
+- MCP+  
+- Decision Locks  
+- Regras de precedência entre artefatos  
+- Definition of Ready / Definition of Stop  
+- Checkpoints  
+
+### Adoção e ensino (pré-normativo)
+- Guia de Adoção do Método  
+- MCP+ Light (experimental, porta de entrada)  
+- Playbook Experimental de Execução Assistida  
+- Anti-Exemplos (loops, stop tardio, mau uso)
+
+### v0.3 — Uso permitido
+- leitura
+- aprendizado
+- referência conceitual
+- análise de Dry Runs
+
+A v0.3 **não é versão vigente**.
 
 ---
 
-## ✅ O QUE É PERMITIDO AO RETOMAR
+## ⛔ O que está BLOQUEADO (não fazer agora)
 
-- Executar **Dry Run da v0.3** sobre o Academic Paper Builder
-- Coletar evidências de:
-  - loops cognitivos
-  - pontos de intervenção humana
-  - ambiguidade normativa
-- Criar **indicadores simples**, não métricas complexas
-- Registrar novos **checkpoints formais**
+Bloqueado até evidência **multi-humano + multi-produto**:
 
----
+- decidir o que vira norma
+- decidir o que vira automação
+- decidir o que é obrigatório vs opcional de forma normativa
+- planejar ou autorizar a v0.4
+- elevar autoridade de playbooks ou templates
 
-## 🧭 REFERÊNCIA CANÔNICA
-
-Checkpoint oficial de consolidação:
-
-CHECKPOINT — Consolidação Geral
-(Axioma + v0.2 aplicada + v0.3 encerrada)
-Data: 2025-12-30
-
-Este checkpoint prevalece sobre:
-- playbooks
-- templates
-- agents
-- exemplos
+Adiado conscientemente:
+- **Dry Run #3 (humano diferente)**
 
 ---
 
-## 🧠 NOTA DE GOVERNANÇA
+## 👀 O que deve ser OBSERVADO
 
-Este arquivo existe para **evitar drift cognitivo** ao longo do tempo,  
-especialmente quando:
-- o projeto ficar semanas parado
-- novos colaboradores entrarem
-- o autor retornar em outro contexto ou chat
+### Sinais de risco
+- loops cognitivos (iterações sem decisão)
+- ausência de Decision Locks
+- expansão de artefatos sem propósito claro
+- confusão entre playbook e norma
+
+### Sinais de qualidade
+- decisões explícitas e defensáveis
+- respeito à precedência entre artefatos
+- aplicação consciente da pergunta de suficiência:
+
+> “Isso já é suficiente para avançar com segurança?”
+
+### Sinais de adoção saudável
+- novos usuários entendem light → standard → full
+- MCP+ Light reduz custo de entrada sem esconder responsabilidade
+- anti-exemplos ajudam a evitar mau uso
+- o método não vira checklist nem burocracia
+
+---
+
+## 🧭 Próximos Passos Seguros (se e quando fizer sentido)
+
+- Usar o método com novos usuários internos (Nível Light)
+- Observar falhas e fricções reais
+- Registrar aprendizados em checkpoints
+- Criar anti-exemplos adicionais, se necessário
+
+⚠️ **Nenhuma evolução normativa deve ocorrer sem evidência documentada.**
+
+---
+
+## 🏷️ TAG DE RETOMADA
+
+RETOMADA:  
+Método estável para adoção interna controlada.  
+v0.2 vigente.  
+v0.3 encerrada e usada apenas como referência.  
+Guia de Adoção, MCP+ Light e Anti-Exemplos autorizados.  
+Automação, elevação normativa e v0.4 permanecem bloqueadas.
 
 ---
 
