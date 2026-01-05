@@ -1,10 +1,21 @@
 > 📘 **Checkpoints oficiais**
 >
-> Os checkpoints da versão vivem em `docs/checkpoints/` e são a fonte de verdade
-> para retomada e continuidade do workflow.
+> Os checkpoints vivem em `docs/checkpoints/` e são a **fonte de verdade**
+> para retomada, continuidade e governança do workflow.
 
+# 📘 AI-Assisted SDLC Workflow — v0.2 (Versão Vigente)
 
-# 📘 AI-Assisted SDLC Workflow — v0.2
+## 🧭 Status da v0.2
+
+- **Status:** versão vigente do método  
+- **Uso autorizado:** adoção interna controlada  
+- **Escopo:** governança cognitiva, contratos explícitos e memória operacional  
+- **Execução de código / automação:** fora do escopo  
+
+> ⚠️ A v0.2 **não executa código**.  
+> Ela torna o trabalho **seguro, controlável e retomável**.
+
+---
 
 ## 1. Visão Geral
 
@@ -17,22 +28,22 @@ o uso de IA:
 - resistente a loops improdutivos
 - fiel à intenção humana ao longo do tempo
 
-> 📌 A v0.2 não executa código.  
-> Ela torna **seguro e controlável** executar no futuro.
+Ela estabelece a **base estável do método**.
 
 ---
 
 ## 2. Objetivo da v0.2
 
-A v0.2 existe para resolver problemas comuns em workflows assistidos por IA:
+A v0.2 existe para resolver problemas recorrentes em workflows assistidos por IA:
 
-- reabertura de decisões já tomadas
+- reabertura silenciosa de decisões
 - renegociação implícita de escopo
 - divergência entre documentos
-- perda de contexto entre chats/agentes
+- perda de contexto entre sessões ou agentes
 - refinamento infinito sem avanço real
 
-Ela transforma a gramática da v0.1 em um **sistema operacional cognitivo**.
+Ela transforma a gramática da v0.1 em um **sistema operacional cognitivo**,
+com regras claras de autoridade, avanço e parada.
 
 ---
 
@@ -47,13 +58,13 @@ Ela transforma a gramática da v0.1 em um **sistema operacional cognitivo**.
 - define *quem manda quando há conflito*
 - define *quando avançar e quando parar*
 - define *como decisões são congeladas*
-- define *como o estado é preservado*
+- define *como o estado é preservado ao longo do tempo*
 
 ---
 
 ## 4. Artefatos Canônicos da v0.2
 
-### 4.1 Templates (normativos)
+### 4.1 Templates (normativos para a v0.2)
 
 📁 `docs/templates/`
 
@@ -66,9 +77,11 @@ Ela transforma a gramática da v0.1 em um **sistema operacional cognitivo**.
 - `checkpoint-template.md`  
   > Template oficial de checkpoint (memória operacional)
 
+> ⚠️ Templates **não são opcionais** quando aplicáveis à v0.2.
+
 ---
 
-### 4.2 Playbooks (regras do método)
+### 4.2 Playbooks (apoio operacional)
 
 📁 `docs/playbook/`
 
@@ -87,6 +100,9 @@ Ela transforma a gramática da v0.1 em um **sistema operacional cognitivo**.
 - `checkpoint-strategy.md`  
   > Quando e por que criar checkpoints
 
+> Playbooks **não criam norma nova**  
+> e **não podem contradizer** a v0.2 ou checkpoints.
+
 ---
 
 ### 4.3 Checkpoints (estado consolidado)
@@ -96,30 +112,32 @@ Ela transforma a gramática da v0.1 em um **sistema operacional cognitivo**.
 - `checkpoint-v0.1-grammar.md`  
   > Fechamento da gramática inicial
 
-- *(futuros)* `checkpoint-v0.2-*.md`
+- `checkpoint-v0.2-*.md`  
+  > Uso real, ajustes e consolidações da v0.2
 
-> 📌 Checkpoints são fonte de verdade para retomada.
+> 📌 **Checkpoints são a fonte de verdade para retomada.**  
+> Sem checkpoint, não há continuidade confiável.
 
 ---
 
 ## 5. Fluxo lógico da v0.2
 
-1. Criar / revisar artefatos da v0.1 (PRD, Context, etc.)
+1. Criar / revisar artefatos da v0.1 (PRD-Lite, Context Pack, etc.)
 2. Criar **MCP+** para a iteração
 3. Definir **Decision Locks**
 4. Validar **Definition of Ready**
 5. Executar a iteração (sem código)
 6. Parar segundo **Definition of Stop**
 7. Criar **Checkpoint**
-8. Decidir próximo passo conscientemente
+8. Decidir conscientemente o próximo passo
 
 ---
 
 ## 6. Regras fundamentais da v0.2
 
 - Nenhuma iteração relevante ocorre sem MCP+
-- Decision Locks não são reabertos sem versionar
-- Conflitos entre artefatos obedecem precedência
+- Decision Locks não são reabertos sem versionamento
+- Conflitos entre artefatos obedecem precedência explícita
 - Avançar sem DoR é violação do método
 - Continuar sem objetivo claro é erro
 - Sem checkpoint, não há retomada confiável
@@ -130,29 +148,34 @@ Ela transforma a gramática da v0.1 em um **sistema operacional cognitivo**.
 
 - não é execução de código
 - não é CI/CD
+- não é automação
 - não é arquitetura de produto
 - não é prompt engineering artesanal
 - não substitui julgamento humano
 
 ---
 
-## 8. Preparação para versões futuras
+## 8. Relação com versões futuras
 
-A v0.2 prepara explicitamente o terreno para:
+A v0.2:
 
-- v0.3: preparação para execução controlada
-- Hot Run com critérios claros
-- múltiplos agentes e sessões
-- uso por outros humanos além do autor
+- é **estável e vigente**
+- prepara conceitualmente o terreno para versões futuras
+- **não autoriza** evolução normativa por si só
+
+Qualquer evolução (ex.: v0.4) depende de:
+- evidência multi-humano
+- evidência multi-produto
+- checkpoints explícitos
 
 ---
 
-## 9. Como usar este README
+## 9. Como usar este documento
 
-- Leia este arquivo primeiro
-- Em seguida, leia os playbooks
-- Use os templates como contratos
-- Use checkpoints para retomada
+- Leia este arquivo como referência principal da versão vigente
+- Consulte os playbooks para apoio operacional
+- Use os templates como contratos explícitos
+- Registre checkpoints sempre que houver avanço relevante
 - Não pule etapas “porque a IA consegue”
 
 ---
@@ -161,3 +184,5 @@ A v0.2 prepara explicitamente o terreno para:
 
 > **A IA pode acelerar o trabalho.  
 > O método existe para impedir que ele descarrile.**
+
+---

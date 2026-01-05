@@ -16,7 +16,7 @@ Objetivo do checkpoint: Registrar formalmente a criação do Índice Normativo d
 
 Este checkpoint marca a **primeira materialização estrutural da v0.3**, ainda em estado **pré-normativo**.
 
-Após o fechamento formal da v0.2, foi criado um **mapa conceitual da v0.3** (`README-v0.3-draft.md`) com o objetivo de explorar a introdução de **pré-execução controlada**, sem autorizar execução real ou automação.
+Após o fechamento formal da v0.2, foi criado um **mapa conceitual da v0.3** (`README-v0.3-conceptual.md`) com o objetivo de explorar a introdução de **pré-execução controlada**, sem autorizar execução real ou automação.
 
 Como passo seguinte e consciente, foi definido um **Índice Normativo da v0.3**, com a finalidade de **delimitar explicitamente quais temas estão autorizados a evoluir para normas** nas próximas iterações.
 
@@ -40,7 +40,7 @@ Este documento:
 
 ### 2.2 Artefatos relacionados (já existentes)
 
-- `docs/README-v0.3-draft.md` — mapa conceitual da v0.3 (não normativo)
+- `docs/README-v0.3-conceptual.md` — mapa conceitual da v0.3 (não normativo)
 - `docs/README-v0.2.md` — versão vigente do workflow
 - `docs/checkpoints/checkpoint-v0.2-final.md` — encerramento formal da v0.2
 
@@ -53,7 +53,7 @@ As seguintes decisões passam a valer a partir deste checkpoint:
 - A v0.3 possui **território normativo explicitamente delimitado**
 - Apenas os temas listados em `docs/v0.3/INDEX.md` podem evoluir para normas da v0.3
 - O índice da v0.3 é **pré-normativo**, mas **decisório quanto a escopo**
-- O `README-v0.3-draft.md` permanece **conceitual e não governante**
+- O `README-v0.3-conceptual.md` permanece **conceitual e não governante**
 - Nenhuma regra da v0.3 entra em vigor sem versão explícita posterior
 
 ---
@@ -103,7 +103,7 @@ Ao retomar o trabalho a partir deste checkpoint:
 
 - Este documento deve ser lido primeiro
 - A v0.2 permanece soberana
-- O `README-v0.3-draft.md` explica o mapa conceitual
+- O `README-v0.3-conceptual.md` explica o mapa conceitual
 - O `docs/v0.3/INDEX.md` delimita o escopo normativo
 - Nenhuma regra da v0.3 é considerada vigente
 

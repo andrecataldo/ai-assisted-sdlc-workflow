@@ -95,7 +95,7 @@ Estado atual:
 - índice normativo definido (`INDEX.md`)
 - encerramento formal registrado em checkpoint
 - guia oficial de leitura criado (`docs/v0.3/README.md`)
-- documento conceitual separado (`README-v0.3-draft.md`)
+- documento conceitual separado (`README-v0.3-conceptual.md`)
 
 A v0.3 **não define automação nem CI/CD**.
 

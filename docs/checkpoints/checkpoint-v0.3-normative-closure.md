@@ -65,7 +65,7 @@ Os seguintes artefatos constituem a **fonte de verdade normativa** da v0.3:
 - `docs/v0.3/10-encerramento-e-evolucao.md`
 
 ### 3.3 Documento Conceitual Relacionado
-- `docs/README-v0.3-draft.md` (mapa conceitual — **não normativo**)
+- `docs/README-v0.3-conceptual.md` (mapa conceitual — **não normativo**)
 
 ---
 

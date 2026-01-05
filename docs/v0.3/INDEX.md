@@ -20,9 +20,9 @@ Tudo o que **não** está listado aqui está **fora de escopo** desta versão.
 
 ---
 
-## Relação com o README-v0.3-draft.md
+## Relação com o README-v0.3-conceptual.md
 
-- O `README-v0.3-draft.md` descreve o **mapa conceitual**
+- O `README-v0.3-conceptual.md` descreve o **mapa conceitual**
 - Este `INDEX.md` define o **território normativo autorizado**
 
 Ambos são complementares, mas **não intercambiáveis**.
