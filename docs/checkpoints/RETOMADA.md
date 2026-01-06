@@ -6,119 +6,54 @@
 
 ---
 
-## 🧠 Estado Atual do Método
+## ✅ Estado Atual (Pós-tag stable-controlled-adoption)
 
-O **AI-Assisted SDLC Workflow** encontra-se em estado **estável para adoção interna controlada**.
+Data do marco: 2026-01-05  
+Tag: stable-controlled-adoption  
+Checkpoint: docs/checkpoints/checkpoint-post-tag-stable-controlled-adoption.md
 
-- **Diretriz Primária** definida e vigente (Camada 0)
-- **v0.2** é a **versão vigente**
-- **v0.3** está **normativamente encerrada** (referência conceitual)
-- Dry Run da v0.3 realizado e analisado
-- Guia de Adoção, MCP+ Light e Anti-Exemplos criados
-- Nenhuma automação autorizada
-- Nenhuma nova versão aberta
-
-Este ponto marca o **encerramento consciente de um ciclo**.
+- v0.2 é a versão vigente (contratos + memória operacional)
+- v0.3 está normativamente definida e encerrada (referência conceitual; não vigente)
+- foco atual: adoção interna controlada (ensinabilidade + anti-exemplos + onboarding)
+- bloqueios ativos: automação/CI-CD/Hot Run padrão/v0.4 sem evidência
 
 ---
 
-## ✅ O que PODE ser usado agora (uso interno controlado)
+## 🔓 O que está liberado evoluir agora (governança)
 
-### Núcleo do método
-- Diretriz Primária  
-- Hierarquia de autoridade vigente  
-- Uso de checkpoints como memória institucional  
-
-### v0.2 — Versão vigente
-Autorizada para:
-- organização de pensamento
-- planejamento e alinhamento
-- governança cognitiva
-- redução de drift
-- decisões explícitas
-
-Artefatos e práticas:
-- PRD-Lite  
-- Context Pack  
-- MCP+  
-- Decision Locks  
-- Regras de precedência entre artefatos  
-- Definition of Ready / Definition of Stop  
-- Checkpoints  
-
-### Adoção e ensino (pré-normativo)
-- Guia de Adoção do Método  
-- MCP+ Light (experimental, porta de entrada)  
-- Playbook Experimental de Execução Assistida  
-- Anti-Exemplos (loops, stop tardio, mau uso)
-
-### v0.3 — Uso permitido
-- leitura
-- aprendizado
-- referência conceitual
-- análise de Dry Runs
-
-A v0.3 **não é versão vigente**.
+- melhorar comunicação e navegação (READMEs, roadmap, mapa visual)
+- tornar o método ensinável para outros (guia, exemplos e anti-exemplos)
+- refinar MCP+ Light (sem virar norma)
+- derivar playbooks v0.3-aware (não normativos)
+- coletar evidência em campo (multi-humano/multi-produto)
+- registrar checkpoints comparáveis
 
 ---
 
-## ⛔ O que está BLOQUEADO (não fazer agora)
+## 🔒 O que continua bloqueado
 
-Bloqueado até evidência **multi-humano + multi-produto**:
-
-- decidir o que vira norma
-- decidir o que vira automação
-- decidir o que é obrigatório vs opcional de forma normativa
-- planejar ou autorizar a v0.4
-- elevar autoridade de playbooks ou templates
-
-Adiado conscientemente:
-- **Dry Run #3 (humano diferente)**
+- automação end-to-end
+- CI/CD governado por IA
+- execução Hot Run como padrão
+- expansão normativa da v0.3
+- declarar/planejar v0.4 sem evidência multi-humano/multi-produto
 
 ---
 
-## 👀 O que deve ser OBSERVADO
+## 🎯 Próxima Etapa Prioritária (Evolução com evidência)
 
-### Sinais de risco
-- loops cognitivos (iterações sem decisão)
-- ausência de Decision Locks
-- expansão de artefatos sem propósito claro
-- confusão entre playbook e norma
+**Fase 5 do roadmap: Evidência Multi-Humano / Multi-Produto**
 
-### Sinais de qualidade
-- decisões explícitas e defensáveis
-- respeito à precedência entre artefatos
-- aplicação consciente da pergunta de suficiência:
+Objetivo:
+- validar ensinabilidade, ergonomia e clareza sem o autor
+- identificar fricções reais e pontos de confusão
+- gerar base empírica para decisões estruturais futuras
 
-> “Isso já é suficiente para avançar com segurança?”
+Saída obrigatória:
+- 1 checkpoint de uso por humano diferente
+- 1 checkpoint de uso em produto diferente (ou iteração distinta)
+- síntese comparativa (onde o método funcionou / onde tropeçou / por quê)
 
-### Sinais de adoção saudável
-- novos usuários entendem light → standard → full
-- MCP+ Light reduz custo de entrada sem esconder responsabilidade
-- anti-exemplos ajudam a evitar mau uso
-- o método não vira checklist nem burocracia
-
----
-
-## 🧭 Próximos Passos Seguros (se e quando fizer sentido)
-
-- Usar o método com novos usuários internos (Nível Light)
-- Observar falhas e fricções reais
-- Registrar aprendizados em checkpoints
-- Criar anti-exemplos adicionais, se necessário
-
-⚠️ **Nenhuma evolução normativa deve ocorrer sem evidência documentada.**
-
----
-
-## 🏷️ TAG DE RETOMADA
-
-RETOMADA:  
-Método estável para adoção interna controlada.  
-v0.2 vigente.  
-v0.3 encerrada e usada apenas como referência.  
-Guia de Adoção, MCP+ Light e Anti-Exemplos autorizados.  
-Automação, elevação normativa e v0.4 permanecem bloqueadas.
 
 ---
 
