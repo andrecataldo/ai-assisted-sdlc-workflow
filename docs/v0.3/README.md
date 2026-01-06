@@ -1,65 +1,75 @@
-# 📘 v0.3 — Guia Oficial de Leitura
+# 📘 v0.3 — Guia Oficial de Leitura (Norma Encerrada)
+
+<!-- OFFICIAL READING GUIDE -->
+<!-- NORMATIVO | ENCERRADO -->
+<!-- OBJETIVO: ORIENTAR LEITURA CONCEITUAL SEM AUTORIZAR USO OPERACIONAL -->
 
 Este diretório contém o **corpo normativo da versão v0.3** do **AI-Assisted SDLC Workflow**.
 
-A v0.3 define **as regras, limites e princípios para execução assistida por IA sob governança explícita**, preservando autoridade humana, auditabilidade e capacidade de reversão.
+A v0.3 define **princípios, limites e conceitos para execução assistida por IA sob governança explícita**, preservando autoridade humana, auditabilidade e capacidade de reversão.
+
+⚠️ **A v0.3 está normativamente encerrada.**  
+Este diretório **não governa uso operacional**.
 
 ---
 
-## Status da v0.3
+## 🧭 Status da v0.3
 
 - ✅ **Normativamente definida**
 - 🔒 **Encerrada por checkpoint formal**
-- ⚠️ **Não vigente**
+- ❌ **Não vigente**
+- ❌ **Não autoriza execução, automação ou CI/CD**
 
-A versão vigente do workflow continua sendo a **v0.2**.  
-A v0.3 **não substitui** a v0.2 e **não governa uso automaticamente**.
+A versão vigente do workflow é a **v0.2**:  
+👉 `docs/README-v0.2.md`
 
-👉 Versão vigente:  
-`docs/README-v0.2.md`
-
-👉 Encerramento normativo da v0.3:  
-`docs/checkpoints/checkpoint-v0.3-normative-closure.md`
+Encerramento normativo oficial:  
+👉 `docs/checkpoints/checkpoint-v0.3-normative-closure.md`
 
 ---
 
-## O que a v0.3 é
+## 🧠 O que a v0.3 é
 
-A v0.3 é uma versão **normativa de pré-execução controlada**.
+A v0.3 é uma **norma conceitual de pré-execução controlada**.
 
-Ela existe para responder à seguinte pergunta:
+Ela existe para responder à pergunta:
 
-> **Quando a execução assistida por IA é aceitável sem perder governança, responsabilidade e controle cognitivo?**
+> **Quando a execução assistida por IA seria aceitável sem perder governança, responsabilidade e controle cognitivo?**
 
-Para isso, a v0.3 define:
-- princípios normativos
-- modos de execução
-- autorização e guards
-- contrato de qualidade
+Para isso, a v0.3 **define conceitos normativos**, como:
+- princípios de execução sob governança
+- modos de execução (No Run, Dry Run, Hot Run)
+- autorização explícita e guards
+- contrato de qualidade mínima
 - limites da autoridade da IA
 - observabilidade cognitiva
-- rollback e recovery
+- rollback e recovery conceitual
 - anti-padrões e riscos conhecidos
 - critérios de encerramento e evolução
 
+Esses elementos estão **normativamente definidos**, mas **não autorizados para uso operacional**.
+
 ---
 
-## O que a v0.3 não é
+## ⛔ O que a v0.3 NÃO é
 
 A v0.3 **não**:
+
+- governa execução real
 - define ferramentas, stacks ou plataformas
 - descreve pipelines técnicos ou CI/CD
 - automatiza decisões
-- executa código por padrão
+- executa código
 - substitui julgamento humano
+- substitui a v0.2
 
-Qualquer uso além desse escopo exige **versão futura explícita**.
+Qualquer uso além da leitura e referência exige **nova versão explícita**, com nova autoridade.
 
 ---
 
-## Como ler a v0.3
+## 📖 Como ler a v0.3
 
-A leitura recomendada é sequencial:
+A leitura recomendada é **sequencial**, como um corpo normativo fechado:
 
 1. `01-introducao-e-escopo.md`
 2. `02-principios-normativos.md`
@@ -72,38 +82,53 @@ A leitura recomendada é sequencial:
 9. `09-antipadroes-e-riscos.md`
 10. `10-encerramento-e-evolucao.md`
 
-O arquivo `INDEX.md` define o **perímetro normativo oficial** da v0.3.
+O arquivo `INDEX.md` define o **perímetro normativo oficial da v0.3**  
+e não deve ser expandido sem nova autoridade explícita.
 
 ---
 
-## Relação com Playbooks e Templates
+## 🔗 Relação com Playbooks e Templates
 
-Os capítulos da v0.3 **definem normas**.
+Os capítulos da v0.3 **definem normas conceituais encerradas**.
 
-- Playbooks explicam **como aplicar** essas normas
-- Templates definem **como registrar** sua aplicação
+- Playbooks explicam **como normas poderiam ser aplicadas**
+- Templates explicam **como registrar decisões**
 
 Nenhum playbook ou template pode:
 - criar nova norma
-- flexibilizar princípios
+- flexibilizar princípios da v0.3
 - contradizer este diretório
+- elevar autoridade para uso operacional
 
 ---
 
-## Uso recomendado
+## 🧪 Uso permitido deste material
 
-A v0.3 deve ser utilizada para:
+A v0.3 pode ser utilizada **exclusivamente** para:
+
 - leitura e alinhamento conceitual
 - revisão de governança
-- base para criação de playbooks
-- aplicação controlada (preferencialmente Dry Run)
-- coleta de evidência empírica para versões futuras
+- base teórica para playbooks
+- Dry Runs documentados (sem execução real)
+- análise de risco e preparação metodológica
+- aprendizado institucional
+
+Ela **não deve** ser usada como:
+- versão corrente
+- guia de implementação
+- base para automação
+- justificativa para execução assistida
 
 ---
 
-## Nota Final
+## 🧠 Nota Final
 
 A v0.3 existe para **proteger a execução contra pressa, entusiasmo e automatização prematura**.
 
 > **Ela não pergunta se devemos executar.  
-> Ela define quando executar é aceitável.**
+> Ela define quando executar *seria aceitável* —  
+> e por isso permanece encerrada até nova evidência.**
+
+---
+
+<!-- FIM DO DOCUMENTO -->
